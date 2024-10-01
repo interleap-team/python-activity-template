@@ -1,38 +1,21 @@
-# File Handling in Python - Practice Activity
+## Python & Jupyter Basics
 
-👋 **Welcome to your Python file handling practice session!**
+This project walks you through some basic activities in Python through some activities and a project.
 
-In this activity, you'll learn how to:
+### Topics
 
-- Open files using different modes (read, write, append)
-- Write and read data from files
-- Manage errors when working with files
+The goal is for you to get familiar with Jupyter Notebooks, and also get familiar with some basic concepts in Python such as:
 
-## Instructions
+- Operations
+- Functions
+- Conditionals
+- Dictionaries
+- Lists
+- File Handling
+- Basic Plotting
 
-1. **Open the `main.py` file** from this repository.
-2. **Type the code** as given in the task or experiment with your own.
-3. **Click the "Run" button** to test your code and see the output.
+### Goal
 
-### Key Concepts
+You do not have to be afraid of errors. Instead, feel free to make as many of them as possible in this codespace. You cannot go wrong, and if you do, you can always create a new, fresh codespace. The idea is for you to get familiar with the code and basics.
 
-- **Opening files**: Learn how to open files in different modes (e.g., `"r"` for read, `"w"` for write).
-- **Writing to a file**: Understand how to write text/data into a file.
-- **Reading from a file**: Practice reading the contents of a file.
-- **Closing files**: Don’t forget to close the file when you're done.
-- **Error Handling**: Use `try` and `except` to handle errors gracefully when working with files.
-
-### Example
-
-Here’s a simple example of writing to a file:
-
-```python
-# Open a file in write mode
-with open("example.txt", "w") as file:
-    file.write("Hello, Python learners!")
-
-# Now let's read the file
-with open("example.txt", "r") as file:
-    content = file.read()
-    print(content)
-```
+If you feel you are stuck, feel free to ask for help.
